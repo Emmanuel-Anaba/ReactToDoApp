@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer utilities {
+  button {
+    @apply rounded-md border-[1px] border-emerald-200 text-base;
+  }
+  li {
+    @apply bg-emerald-800 p-2 m-2 rounded-md justify-between items-center md:gap-10 break-words grid grid-cols-5;
+  }
+  li p {
+    @apply break-words col-span-3 md:col-span-4;
+  }
+  li button {
+    @apply px-5 py-[0.125rem];
+  }
+  li div {
+    @apply text-xl cursor-pointer flex gap-3 justify-end w-[100%] col-start-5;
+  }
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-md bg-emerald-700 duration-700;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-emerald-500;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-white;
+  }
+  li .checked {
+    background: #000;
+  }
+}
+
+/* I need to wrap the words in the li */
