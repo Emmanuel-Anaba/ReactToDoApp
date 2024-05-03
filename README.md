@@ -13,4 +13,4 @@ TodoApp is a minimalist web application designed to help users organize their ta
 - Edit existing tasks to update titles or descriptions.
 - Delete tasks that are no longer needed.
 
-TodoApp is already hosted and available online at [todo.mysite.com](https://todo.mysite.com).
+TodoApp is already hosted and available online at [emma-react-todo-app.vercel.app]([https://emma-react-to-do-app.vercel.app/]).
