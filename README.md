@@ -8,9 +8,8 @@ TodoApp is a minimalist web application designed to help users organize their ta
 
 ## Features
 
-- Create new tasks with titles and optional descriptions.
+- Create new tasks
 - Mark tasks as completed or incomplete.
-- Edit existing tasks to update titles or descriptions.
 - Delete tasks that are no longer needed.
 
 TodoApp is already hosted and available online at [https://emma-react-to-do-app.vercel.app/](https://emma-react-to-do-app.vercel.app/).
